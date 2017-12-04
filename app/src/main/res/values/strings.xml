@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Delivery on Foot</string>
+    <!-- Strings related to activity titles-->
+    <string name="add_new_activity">Add new Activity</string>
+    <string name="payment">Payment</string>
+    <string name="bid_details">Bid Details</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="support">User Support</string>
+    <string name="messages">Messages</string>
+    <string name="listing_details">My Listing Details</string>
+
+    <!-- Strings related to login/signup -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_phone">Phone</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password_again">Confirm Password</string>
+    <string name="prompt_msg">Type a message</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_in_screen">Click here to login!</string>
+    <string name="action_sign_up_screen">New User? Register Here!</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_phone">This phone number is invalid</string>
+    <string name="error_invalid_old_password">Invalid old password</string>
+    <string name="error_invalid_confirm_password">Password and Confirm Password are not same.</string>
+    <string name="error_item_value">Item value should be greater than $ 0.0</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!-- Strings related to Add Listing-->
+    <string name="prompt_receiver_name">Receiver Name</string>
+    <string name="prompt_receiver_address">Receiver Address</string>
+    <string name="prompt_receiver_phone">Receiver Phone</string>
+
+    <!--Strings related to Add new listing-->
+    <string name="add_new_listing">Add New Listing</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_desc">Description</string>
+    <string name="item_value">Item Value</string>
+    <string name="pickup_address">Pickup Address</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="date">Exp. Delivery Date</string>
+    <string name="time">Exp. Delivery Time</string>
+    <string name="action_add_new_listing">Add Listing</string>
+
+
+    <!--Strings related to bidding-->
+    <string name="prompt_bid_amount">Enter Bid Amount</string>
+    <string name="confirm_bidding">Confirm Bidding</string>
+
+    <!--Strings related to payment -->
+    <string name="prompt_card_name">Name on Card</string>
+    <string name="prompt_card_number">Card Number</string>
+    <string name="prompt_cvv">CVV</string>
+    <string name="prompt_expiry_date">Expiry Date</string>
+    <string name="action_confirm_payment">Confirm Payment</string>
+
+    <!--Strings Related to User Profile -->
+    <string name="action_update_profile">Update Profile</string>
+    <string name="prompt_old_password">Old Password</string>
+    <string name="prompt_new_password">New Password</string>
+    <string name="prompt_confirm_new_password">Confirm New Password</string>
+    <string name="action_change_password">Change Password</string>
+    <string name="action_logout">Logout</string>
+
+    <!--Strings related to dialog messages -->
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="action_delete">Delete</string>
+
+    <!--Strings related to terms and payment agreement -->
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="term1">1. By Clicking confirm you agree to pay DOF a nominal service fee of 5% on your accepted bid amount.</string>
+    <string name="term2">2. DOF holds no responsibility whastsoever in case of theft or lost items, but will actively support with appropriate
+        remuneration from the responsible party.</string>
+    <string name="term3">3. You agree to share your personal and payment card details with DOF.</string>
+
+    <!--Strings related to terms and payment agreement -->
+    <string name="support_title">User Support</string>
+    <string name="support1">If you have any queries, feel free to contact us at:</string>
+    <string name="support2">support@dof.com</string>
+    <string name="support3">Thank You! Team DOF.</string>
+</resources>

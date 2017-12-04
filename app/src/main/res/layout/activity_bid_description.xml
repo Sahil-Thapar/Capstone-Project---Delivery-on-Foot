@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margin"
+    tools:context="com.capstoneproject.dof.BidDescriptionActivity">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:contentPadding="5dp"
+        card_view:cardElevation="10dp"
+        card_view:cardPreventCornerOverlap="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                android:src="@drawable/noimage"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Item Name : "
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_marginRight="@dimen/margin"/>
+                <TextView
+                    android:id="@+id/item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Name"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Item Description : "
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_marginRight="@dimen/margin"/>
+                <TextView
+                    android:id="@+id/item_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Description"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Item Value : "
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_marginRight="@dimen/margin"/>
+                <TextView
+                    android:id="@+id/item_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Value"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Delivery Address : "
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_marginRight="@dimen/margin"/>
+                <TextView
+                    android:id="@+id/item_delivery_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Delivery Address"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Pickup Address : "
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_marginRight="@dimen/margin"/>
+                <TextView
+                    android:id="@+id/item_pickup_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Pickup Address"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Expected delivery date and time : "
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_marginRight="@dimen/margin"/>
+                <TextView
+                    android:id="@+id/item_date_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="dd-mm-yyyy hh:mm"
+                    />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bid Amount in $ (fill it as per your choice) : "
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_margin="@dimen/activity_vertical_margin"/>
+            <EditText
+                android:id="@+id/bid_amount"
+                android:layout_width="match_parent"
+                android:imeOptions="actionDone"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_bid_amount"
+                android:inputType="numberDecimal"
+                android:textSize="14dp"
+                android:layout_margin="6dp"
+                />
+            <Button
+                android:id="@+id/bid_button"
+                style="?android:textAppearanceMedium"
+                android:imeOptions="actionDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="@string/confirm_bidding"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

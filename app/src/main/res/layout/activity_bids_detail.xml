@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margin"
+    android:weightSum="2"
+    tools:context="com.capstoneproject.dof.BidDescriptionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:paddingHorizontal="@dimen/padding">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:weightSum="4"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Name"/>
+
+            <TextView
+                android:id="@+id/item_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Value"/>
+
+            <TextView
+                android:id="@+id/item_date_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="dd-mm-yyyy hh:mm"/>
+
+            <TextView
+                android:id="@+id/item_pickup_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:paddingHorizontal="@dimen/padding">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bidder_list"
+
+            ></ListView>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

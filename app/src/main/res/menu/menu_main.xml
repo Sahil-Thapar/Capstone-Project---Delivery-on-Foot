@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.capstoneproject.dof.MainActivity">
+
+    <item
+        android:id="@+id/action_change_profile"
+        android:orderInCategory="100"
+        android:title="@string/action_update_profile"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_change_password"
+        android:orderInCategory="100"
+        android:title="@string/action_change_password"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_support"
+        android:orderInCategory="100"
+        android:title="@string/support"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_messages"
+        android:icon="@drawable/message"
+        app:showAsAction="always"
+        android:title="Messages"
+        android:actionLayout="@layout/badge_layout"/>
+</menu>

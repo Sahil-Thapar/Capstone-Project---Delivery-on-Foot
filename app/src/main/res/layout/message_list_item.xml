@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_marginTop="@dimen/activity_vertical_margin"
+              android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+
+        card_view:cardCornerRadius="10dp"
+        card_view:contentPadding="5dp"
+        card_view:cardElevation="5dp"
+        card_view:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding"
+            android:background="@color/blue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hey, Your bid has been acceped. The details for your delivery are as follows: "
+                android:textSize="18dp"
+                android:textStyle="italic|bold"
+                android:textColor="@color/white"/>
+
+
+            <TextView
+                android:id="@+id/poster_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="2dp"
+                android:text="Message"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/receiver_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="2dp"
+                android:text="Message"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/receiver_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="2dp"
+                android:text="Message"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/pickup_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="2dp"
+                android:text="Message"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/delivery_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="2dp"
+                android:text="Message"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/date_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="2dp"
+                android:text="Message"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="4dp"
+                android:text="Thank You!"
+                android:textStyle="italic|bold"
+                android:textColor="@color/white"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="Team DOF"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

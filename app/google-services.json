@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "252433060727",
+    "firebase_url": "https://deliveryonfoot.firebaseio.com",
+    "project_id": "deliveryonfoot",
+    "storage_bucket": "deliveryonfoot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252433060727:android:aafe7ee60add2d3a",
+        "android_client_info": {
+          "package_name": "com.capstoneproject.dof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252433060727-87u2679n2gslr5c0o10ic77alq4so7v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNU7mXq5L9T_7rGfeEhrj5j9qn_sJVDdQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

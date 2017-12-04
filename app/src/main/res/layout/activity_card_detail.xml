@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    tools:context="com.capstoneproject.dof.CardDetailActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="**Payment detail is mandatory in order to participate in bidding."
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:textAlignment="center"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Details"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/card_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_card_name"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/card_number"
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_card_number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/card_cvv"
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_cvv"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/card_expiry_date"
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:layout_height="wrap_content"
+        android:hint="Expiry Date (MM-YYYY)"
+        android:inputType="date"
+        android:maxLines="1"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:id="@+id/privacy_policy"
+            android:text="Read and Accept Privacy and Policy"
+            android:textStyle="italic|bold"
+            />
+
+        <ImageButton
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/badge_circle"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/save_card"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Save"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        />
+
+
+
+
+</LinearLayout>

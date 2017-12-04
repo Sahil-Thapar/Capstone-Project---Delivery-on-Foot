@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    tools:context="com.capstoneproject.dof.BidDescriptionActivity">
+
+    <EditText
+        android:id="@+id/receiver_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Receiver Name"
+        android:inputType="textPersonName"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+
+        />
+    <EditText
+        android:id="@+id/receiver_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/prompt_receiver_phone"
+        android:imeOptions="actionNext"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payable Amount(Commencing 5% service charges)"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/final_bid_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:imeOptions="actionDone"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+        android:textStyle="bold"
+        android:editable="false"
+        />
+
+
+
+    <!--<View style="@style/Divider"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Details"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+        android:textStyle="italic|bold"
+        android:gravity="center"
+        android:textSize="16dp"
+
+        />
+
+    <EditText
+        android:id="@+id/card_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_card_name"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/card_number"
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_card_number"
+        android:inputType="text"
+        android:maxLines="1"
+       />
+
+    <EditText
+        android:id="@+id/card_cvv"
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_cvv"
+        android:inputType="text"
+        android:maxLines="1"
+       />
+
+    <EditText
+        android:id="@+id/card_expiry_date"
+        android:layout_width="match_parent"
+        android:imeOptions="actionDone"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_expiry_date"
+        android:inputType="text"
+        android:maxLines="1"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/privacy_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Read Terms and Conditions"
+            android:layout_marginRight="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/blue"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/info"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/action_pay"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/action_confirm_payment"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>
